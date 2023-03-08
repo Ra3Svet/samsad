@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:13.3
+    environment:
+      POSTGRES_DB: "samsad"
+      POSTGRES_USER: "AESergeev"
+      POSTGRES_PASSWORD: "garden2023"
+    ports:
+      - "5432:5432"
